@@ -1,0 +1,65 @@
+body {
+  background: rgb(255, 212, 231);
+  background: linear-gradient(
+    90deg,
+    rgb(248, 255, 146) 0%,
+    rgba(139, 255, 203) 100%
+
+  );
+  height: 100vh;
+}
+form {
+  text-align: center;
+  padding: 5rem 0;
+  place-content: center;
+}
+input {
+  border: 2px solid grey;
+  border-radius: 4px;
+  width: 24rem;
+  height: 38px;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+.itemRows {
+  height: 50%;
+  overflow-y: overlay;
+}
+.todoTask {
+  background-color: #f8f9fa;
+  max-width: 60%;
+  margin: 8px auto;
+  font-size: 16px;
+  padding: 8px;
+  border: 2px solid #adb5bd;
+  border-radius: 4px;
+}
+.fa-trash-alt {
+  float: right;
+  margin-top: 6px;
+  color: #83898e;
+}
+
+.taskDone {
+  max-width: 60%;
+  margin: 8px auto;
+  text-decoration: line-through;
+  background-color: rgba(0, 0, 0, 0.08);
+  font-size: 16px;
+  padding: 8px;
+  border: 2px solid #adb5bd;
+  border-radius: 4px;
+}
+.container-fluid h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+  padding: 2rem 0;
+}
+.noData {
+  font-size: 42px;
+  color: rgba(78, 67, 67, 0.637);
+  font-weight: 800;
+  text-align: center;
+}
